@@ -967,6 +967,11 @@ video {
   background-color: hsl(150 100% 66% / var(--tw-bg-opacity));
 }
 
+.hover\:shadow-neon-green:hover{
+  --tw-shadow-color: hsl(150, 100%, 66%);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 @media (min-width: 768px){
   .md\:block{
     display: block;
