@@ -16,7 +16,7 @@ module.exports = {
       quoteFont: "28px",
     },
     fontFamily: {
-      fonts: ["Manrope", "sans - serif"],
+      fonts: ["Manrope", "sans-serif"],
     },
     fontWeight: {
       normal: "400",
