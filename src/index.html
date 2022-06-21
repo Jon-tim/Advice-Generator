@@ -15,8 +15,8 @@
   <body
     class="bg-dark-grayish-blue w-screen h-screen flex justify-center items-center"
   >
-    <main class="bg-grayish-blue rounded-lg m-8">
-      <section class="flex items-center flex-col gap-4 p-8">
+    <main class="bg-grayish-blue rounded-lg m-8 min-w-[300px]">
+      <section class="flex items-center flex-col gap-4 p-8 relative">
         <p
           class="advice-id font-fonts text-neon-green uppercase font-normal tracking-widest"
         >
@@ -29,8 +29,10 @@
           tempore libero nostrum veniam tenetur autem dicta nisi consectetur
           harum ipsum."
         </p>
-        <div class="flex items-center justify-center">
-          <hr class="h-0 w-20" />
+        <div class="flex items-center justify-center mb-8 relative">
+          <hr
+            class="h-[1px] border-0 min-w-[100px] bg-light-cyan absolute left-0 z-10"
+          />
           <img
             src="../images/pattern-divider-mobile.svg"
             class="w-full"
@@ -64,10 +66,12 @@
               </g>
             </g>
           </svg>
-          <hr class="h-0 w-20" />
+          <hr
+            class="h-[1px] border-0 min-w-[100px] absolute right-0 z-10 bg-light-cyan"
+          />
         </div>
         <div
-          class="dice w-16 h-16 flex items-center justify-center bg-neon-green rounded-full"
+          class="absolute -bottom-8 dice w-16 h-16 flex items-center justify-center bg-neon-green rounded-full hover:bg-neon-green"
         >
           <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
             <path
