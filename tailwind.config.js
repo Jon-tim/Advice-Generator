@@ -18,10 +18,10 @@ module.exports = {
     fontFamily: {
       fonts: ["Manrope", "sans-serif"],
     },
-    fontWeight: {
-      normal: "400",
-      bold: "800",
-    },
+    // fontWeight: {
+    //   normal: "400",
+    //   bold: "800",
+    // },
   },
   plugins: [],
 };
