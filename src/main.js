@@ -16,7 +16,7 @@ const getAdvice = async () => {
 dice.addEventListener("click", () => {
   getAdvice()
     .then((data) => {
-      adviceBox.textContent = data.slip.advice;
+      adviceBox.textContent = `"${data.slip.advice}"`;
       adviceIndex.textContent = `Advice #${data.slip.id}`;
     })
     .catch((err) => err);
